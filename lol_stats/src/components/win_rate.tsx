@@ -1,17 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-interface HeroWinRate {
-  [key: string]: number;
-}
-
-interface HeroData {
-  name: string;
-  stats: {
-    win: number;
-  };
-}
-
 const WinRate: React.FC = () => {
   const [winRates, setWinRates] = useState<HeroWinRate>({});
   const [bestHero, setBestHero] = useState("");

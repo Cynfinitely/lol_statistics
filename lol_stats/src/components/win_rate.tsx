@@ -35,7 +35,8 @@ const WinRate: React.FC = () => {
 
   return (
     <div>
-      <h1>Here is the hero with best win rate.</h1>
+      <h1>Lol Stats</h1>
+      <h3>Here is the hero with best win rate.</h3>
       {bestHero && (
         <p>
           The hero with the best win rate is {bestHero} with a win rate of{" "}
